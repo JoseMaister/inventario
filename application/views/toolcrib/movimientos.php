@@ -1,21 +1,15 @@
-<!-- page content -->
-<div class="main-container" role="main">
-    <div class="">
-
-        <div class="clearfix"></div>
-
-        <div class="row">
+<div class="main-container">
+            <div class="pd-ltr-20 xs-pd-20-10">
+                <div class="min-height-200px">
+                    
+                    <!-- basic table  Start -->
+                    <div class="pd-20 card-box mb-30">
             <div class="x_content">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
                             <h2>Movimientos</h2>
-                            <ul class="nav navbar-right panel_toolbox">
-                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                </li>
-                                <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                </li>
-                            </ul>
+                            
                            <form method="POST" action=<?= base_url('toolcrib/excelMov') ?> class="form-horizontal form-label-left" novalidate enctype="multipart/form-data">
                              <div class="col-md-12 col-sm-12 col-xs-12">
                                     <input id="fecha1" style="display: inline;" type="date" name="fecha1">
@@ -127,18 +121,6 @@
 </div>
 </div>
 
-<!-- jQuery -->
-<script src=<?= base_url("template/vendors/jquery/dist/jquery.min.js"); ?>></script>
-<!-- Bootstrap -->
-<script src=<?= base_url("template/vendors/bootstrap/dist/js/bootstrap.min.js"); ?>></script>
-<!-- Custom Theme Scripts -->
-<script src=<?= base_url("template/build/js/custom.js"); ?>></script>
-<!-- icheck -->
-<script src=<?= base_url("template/vendors/iCheck/icheck.min.js"); ?>></script>
-<!-- PNotify -->
-<script src=<?= base_url("template/vendors/pnotify/dist/pnotify.js"); ?>></script>
-<script src=<?= base_url("template/vendors/pnotify/dist/pnotify.buttons.js"); ?>></script>
-<script src=<?= base_url("template/vendors/pnotify/dist/pnotify.nonblock.js"); ?>></script>
 
 <script>
       function buscar(){

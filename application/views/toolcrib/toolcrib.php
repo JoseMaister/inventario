@@ -1,19 +1,13 @@
-<!-- page content -->
-<div class="main-container" role="main">
-    <div class="">
-
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
+<div class="main-container">
+            <div class="pd-ltr-20 xs-pd-20-10">
+                <div class="min-height-200px">
+                    
+                    <!-- basic table  Start -->
+                    <div class="pd-20 card-box mb-30">
                 <div class="x_panel">
                     <div class="x_title">
                         <h2>Realizar Pedido</h2>
-                        <ul class="nav navbar-right panel_toolbox">
-                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                            </li>
-                            </li>
-                            <li><a class="close-link"><i class="fa fa-close"></i></a>
-                            </li>
-                        </ul>
+                        
                         <div class="clearfix"></div>
                     </div>
                     <div class="x_content">
@@ -80,7 +74,7 @@
                                                 <td class="text-center">
                                                     <form method="POST" action=<?= base_url('toolcrib/registrarVenta') ?>>
                                                         <input id='cantidad'  type='number' name='cantidad' min='0' max='10' class='border' required><input id='producto' style='display: inline;' type='hidden' name='producto' value="<?= $elem->idProducto ?>">
-                                                        <button type='submit'class='btn btn-warning btn-xs'><i class='fa fa-pencil'></i> Agregar </button>
+                                                        <button type='submit'class='btn btn-warning btn-sm'><i class='fa fa-pencil'></i> Agregar </button>
                                                     </form>
                                                
                                                 
@@ -103,18 +97,6 @@
 
                             </div>
                         </form>
-                        
-                        
-
-                        
-                            
-                              
-                            
-                        
-
-
-
-
 
 
                     </div>
@@ -153,7 +135,7 @@
                                                 <td class="text-center"><?= $elem->producto ?></td>
                                                 <td class="text-center"><?= $elem->cantidad ?></td>
                                                 <td class="text-center">
-                                                <a href=<?= base_url("toolcrib/cancelarProducto/".$elem->idvt); ?>><button type="button"class="btn btn-danger btn-xs"><i class="fa fa-eye"></i> Eliminar </button></a>                                                
+                                                <a href=<?= base_url("toolcrib/cancelarProducto/".$elem->idvt); ?>><button type="button"class="btn btn-danger btn-sm"><i class="fa fa-eye"></i> Eliminar </button></a>                                                
                                                 </td>
                                                
                                             </tr>
@@ -193,30 +175,6 @@
 </div>
 </div>
 
-<!-- jQuery -->
-<script src=<?= base_url("template/vendors/jquery/dist/jquery.min.js") ?>></script>
-<!-- Bootstrap -->
-<script src=<?= base_url("template/vendors/bootstrap/dist/js/bootstrap.min.js") ?>></script>
-<!-- FastClick -->
-<script src=<?= base_url("template/vendors/fastclick/lib/fastclick.js") ?>></script>
-<!-- NProgress -->
-<script src=<?= base_url("template/vendors/nprogress/nprogress.js") ?>></script>
-<!-- validator -->
-<script src=<?= base_url("template/vendors/validator/validator.js") ?>></script>
-<script src=<?= base_url("template/vendors/iCheck/icheck.min.js"); ?>></script>
-
-
-<!-- PNotify -->
-<script src=<?= base_url("template/vendors/pnotify/dist/pnotify.js"); ?>></script>
-<script src=<?= base_url("template/vendors/pnotify/dist/pnotify.buttons.js"); ?>></script>
-
-<script src=<?= base_url("template/vendors/pnotify/dist/pnotify.nonblock.js"); ?>></script>
-
-
-
-<!-- Custom Theme Scripts -->
-<script src=<?= base_url("template/build/js/custom.js"); ?>></script>
-  <script>
 
 /*    $(function(){
       load();

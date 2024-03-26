@@ -1,22 +1,15 @@
 <!-- page content -->
-<div class="main-container" role="main">
-    <div class="">
-
-        <div class="clearfix"></div>
-
-        <div class="row">
+<div class="main-container">
+            <div class="pd-ltr-20 xs-pd-20-10">
+                <div class="min-height-200px">
+                    
+                    <!-- basic table  Start -->
+                    <div class="pd-20 card-box mb-30">
             <div class="x_content">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
                             <h2>Tool Crib Pedidos</h2>
-
-                            <ul class="nav navbar-right panel_toolbox">
-                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                </li>
-                                <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                </li>
-                            </ul>
                             <div class="clearfix"></div>
                             
                         
@@ -91,12 +84,6 @@
 </div>
 </div>
 
-<!-- jQuery -->
-<script src=<?= base_url("template/vendors/jquery/dist/jquery.min.js"); ?>></script>
-<!-- Bootstrap -->
-<script src=<?= base_url("template/vendors/bootstrap/dist/js/bootstrap.min.js"); ?>></script>
-<!-- Custom Theme Scripts -->
-<script src=<?= base_url("template/build/js/custom.min.js"); ?>></script>
 
 
 </body>
